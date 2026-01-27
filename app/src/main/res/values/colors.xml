@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Modern 60-30-10 Color Scheme - Wellness & Productivity Theme -->
+
+    <!-- 60% Primary/Neutral Colors (Backgrounds, Surfaces) -->
+    <color name="primary_white">#FFFFFF</color>
+    <color name="primary_light_gray">#F8F9FA</color>
+    <color name="primary_soft_gray">#F1F3F4</color>
+    <color name="primary_medium_gray">#E8EAED</color>
+    <color name="primary_border_gray">#E2E8F0</color>
+
+    <!-- 30% Secondary Colors (Supporting UI Elements) -->
+    <color name="secondary_soft_blue">#E3F2FD</color>
+    <color name="secondary_mint_green">#E8F5E8</color>
+    <color name="secondary_lavender">#F3E5F5</color>
+    <color name="secondary_warm_peach">#FFF3E0</color>
+    <color name="secondary_calm_teal">#E0F2F1</color>
+
+    <!-- 10% Accent Colors (Buttons, CTAs, Highlights) -->
+    <color name="accent_primary">#26A69A</color>
+    <color name="accent_primary_dark">#00796B</color>
+    <color name="accent_secondary">#4ECDC4</color>
+    <color name="accent_warm">#FFA726</color>
+    <color name="accent_coral">#FF6B6B</color>
+    <color name="accent_purple">#AB47BC</color>
+
+    <!-- Text Colors (Semantic Hierarchy) -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#424242</color>
+    <color name="text_tertiary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_on_surface">#212121</color>
+
+    <!-- Surface Colors -->
+    <color name="surface_primary">#FFFFFF</color>
+    <color name="surface_secondary">#FAFAFA</color>
+    <color name="surface_elevated">#FFFFFF</color>
+    <color name="surface_card">#FFFFFF</color>
+
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="success_light">#C8E6C9</color>
+    <color name="warning">#FF9800</color>
+    <color name="warning_light">#FFE0B2</color>
+    <color name="error">#F44336</color>
+    <color name="error_light">#FFCDD2</color>
+    <color name="info">#2196F3</color>
+    <color name="info_light">#BBDEFB</color>
+
+    <!-- Navigation Colors -->
+    <color name="nav_selected">#26A69A</color>
+    <color name="nav_unselected">#9E9E9E</color>
+    <color name="nav_background">#FFFFFF</color>
+
+    <!-- Habit Category Colors (Organized by type) -->
+    <color name="health_background">#E8F5E8</color>
+    <color name="health_accent">#4CAF50</color>
+    <color name="productivity_background">#E3F2FD</color>
+    <color name="productivity_accent">#2196F3</color>
+    <color name="wellness_background">#F3E5F5</color>
+    <color name="wellness_accent">#9C27B0</color>
+    <color name="lifestyle_background">#FFF3E0</color>
+    <color name="lifestyle_accent">#FF9800</color>
+
+    <!-- Interactive Elements -->
+    <color name="ripple_light">#1F26A69A</color>
+    <color name="ripple_dark">#1F000000</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="shadow_light">#0D000000</color>
+    <color name="shadow_medium">#1A000000</color>
+
+    <!-- Gradients -->
+    <color name="gradient_start">#26A69A</color>
+    <color name="gradient_end">#4ECDC4</color>
+    <color name="gradient_overlay_start">#1A26A69A</color>
+    <color name="gradient_overlay_end">#0D4ECDC4</color>
+
+    <!-- Legacy Support Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    
+    <!-- Backwards Compatibility (Mapped to new colors) -->
+    <color name="dominant_light">@color/primary_white</color>
+    <color name="dominant_white">@color/primary_white</color>
+    <color name="dominant_soft_gray">@color/primary_light_gray</color>
+    <color name="dominant_light_gray">@color/primary_soft_gray</color>
+    <color name="dominant_medium_gray">@color/primary_medium_gray</color>
+    <color name="accent_teal">@color/accent_primary</color>
+    <color name="accent_ocean_blue">@color/accent_secondary</color>
+    <color name="border_light">@color/primary_border_gray</color>
+    <color name="text_on_accent">@color/text_on_primary</color>
+</resources>

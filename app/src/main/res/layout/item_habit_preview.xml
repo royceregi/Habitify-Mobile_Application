@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!-- Habit Icon Container -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/icon_container"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="0dp"
+        tools:cardBackgroundColor="@color/health_background">
+
+        <ImageView
+            android:id="@+id/iv_habit_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_add"
+            tools:tint="@color/health_accent" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Habit Content -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_habit_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.Habitify.Body1"
+            android:textStyle="bold"
+            tools:text="Drink 8 Glasses of Water" />
+
+        <TextView
+            android:id="@+id/tv_habit_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textAppearance="@style/TextAppearance.Habitify.Caption"
+            tools:text="Health • Daily Goal" />
+    </LinearLayout>
+
+    <!-- Progress Indicator -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginStart="12dp">
+
+        <!-- Progress Circle or Check Mark -->
+        <FrameLayout
+            android:layout_width="32dp"
+            android:layout_height="32dp">
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                android:id="@+id/progress_indicator"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                app:indicatorSize="32dp"
+                app:trackThickness="3dp"
+                app:indicatorColor="@color/accent_primary"
+                app:trackColor="@color/primary_border_gray"
+                android:progress="0"
+                android:max="100"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_check_mark"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_check"
+                android:background="@drawable/bg_circle_teal"
+                android:padding="6dp"
+                android:visibility="gone"
+                app:tint="@color/text_on_primary" />
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

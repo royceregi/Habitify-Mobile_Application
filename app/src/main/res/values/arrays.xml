@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="period_array">
+        <item>1 Month (30 Days)</item>
+        <item>2 Weeks (14 Days)</item>
+        <item>1 Week (7 Days)</item>
+    </string-array>
+    <string-array name="habit_type_array">
+        <item>Everyday</item>
+        <item>Weekdays</item>
+        <item>Weekends</item>
+    </string-array>
+</resources>
